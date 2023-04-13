@@ -1,0 +1,765 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ==========header-container========== */
+.logo-header{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.logo-text{
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 170px;
+}
+.bold-logo-text{
+    color: #606060;
+    font-weight: 999;
+}
+.header-text{
+    display: none;
+}
+.white-half{
+    background-image: url("../images/Rectangle24.png");
+    height: 1024px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.blue-half{
+    background-image: url("../images/Rectangle2.png");
+    height: 1024px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.careers{
+    margin-top: 35px;
+    color: #606060;
+    font-size: 18px;
+}
+.bold{
+    font-weight: 999;
+    font-size: 35px;
+}
+.circle{
+    position: absolute;
+    left: 394px;
+    top: 182px;
+    background-image: url("../images/Group18351.png");
+    height: 620px;
+    width: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.circle-text{
+    color: white;
+    width: 299px;
+    height: 156px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+.big-text-circle{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    color: white;
+}
+.circle1{
+    position: relative;
+}
+.white-arrow{
+    position: absolute;
+    left: 117px;
+    bottom: -85px;
+    color: white;
+}
+/* ==========header-container========== */
+
+/* ==========events-container========== */
+.events-container{
+    margin: 120px 85px;
+}
+.first-event{
+    background-image: url("../images/Rectangle25.png");
+    height: 691px;
+    background-size: cover;
+    position: relative;
+    padding-left: 20px;
+}
+.event-text{
+    position: absolute;
+    bottom: 40px;
+}
+.second-event{
+    background-image: url("../images/Rectangle26.png");
+    height: 691px;
+    background-size: cover;
+    position: relative;
+    padding-left: 20px;
+}
+.third-event{
+    background-image: url("../images/Rectangle27.png");
+    height: 691px;
+    background-size: cover;
+    position: relative;
+    padding-left: 20px;
+}
+.small-text{
+    font-size: 15px;
+}
+.event-btn{
+    background-color: #007BFF;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 162px;
+    height: 54px;
+    border: none;
+}
+.big-event-btn{
+    background-color: #007BFF;
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
+    width: 354px;
+    height: 51px;
+    border: none;
+    font-weight: 999;
+}
+/* ==========events-container========== */
+
+/* ==========our-community========== */
+.bubbles-hero{
+    background-image: url("../images/Frame18681.png");
+    height: 738px;
+    position: relative;
+    background-size: cover;
+}
+.bubbles-hero-mobile{
+    display: none;
+}
+.bubbles-text{
+    position: absolute;
+    top: 206px;
+    left: 90px;
+}
+.bold-999{
+    font-weight: 999;
+    font-size: 36px;
+}
+.bold-55{
+    font-size: 40px;
+    font-weight: 999;
+}
+.bold-text{
+    font-weight: 500;
+    font-size: 20px;
+}
+/* ==========our-community========== */
+
+/* ==========scholarships========== */
+.scholarships{
+    background-color: #D8D8D8;
+    padding: 50px 120px 200px 120px;
+}
+.scholarships-header{
+    padding-bottom: 100px;
+    padding-left: 0;
+}
+.f-400{
+    font-weight: 400;
+    font-size: 18px;
+}
+.f-15{
+    font-weight: 400;
+    font-size: 26px;
+}
+.f-600{
+    font-weight: 600;
+    font-size: 12px;
+}
+.bold-32-{
+    font-size: 32px;
+    font-weight: 999;
+}
+.bold-32{
+    font-size: 32px;
+    font-weight: 999;
+}
+.scholarships-hero1{
+    background-image: url("../images/Rectangle20.png");
+    width: 590px;
+    height: 440px;
+    background-size: cover;
+}
+.scholarships-hero2{
+    background-image: url("../images/Rectangle31.png");
+    width: 590px;
+    height: 440px;
+    background-size: cover;
+}
+.scholarships-btn{
+    background-color: #007BFF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    width: 223px;
+    height: 54px;
+}
+.scholarships-hero1{
+    position: relative;
+}
+.scholarships-text{
+    position: absolute;
+    bottom: 20px;
+}
+.font-32{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+/* ==========scholarships========== */
+
+/* ==========input-section========== */
+.bulb-hero{
+    background-image: url("../images/Rectangle5.png");
+    height: 874px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input-circle{
+   display: flex;
+   justify-content: center;
+}
+.border-the-circle{
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: 70px;
+    height: 770px;
+    width: 770px;
+}
+.blue-circle{
+    background-image: url("../images/Frame17476.png");
+    background-size: cover;
+    width: 720px;
+    height: 720px;  
+    margin: 20px;
+    position: relative;
+}
+.input-text {
+    width: 732px;
+    height: 156px;
+    color: white;
+    position: absolute;
+    top: 115px;
+    left: -5px;
+}
+.font-20{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    position: relative;
+}
+.caret{
+    position: absolute;
+    color: black;
+    right: 148px;
+    top: 76px;
+    pointer-events: none;
+}
+.name{
+    padding: 12px 16px;
+    width: 448px;
+    height: 48px;
+    border: 2px solid #068BE9;
+    border-radius: 12px;
+}
+.selector{
+    margin-top: 20px;
+    padding: 3px 16px;
+    width: 448px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 999;
+    border-radius: 12px;
+}
+.gradient{
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to bottom, #7D42FF, #08FCFF) border-box;
+    border-radius: 12px;
+    border: 3px solid transparent;
+}
+.circle-btn{
+    width: 448px;
+    height: 54px;
+    color: white;
+    background-color: #068BE9;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.mobile-input{
+    display: none;
+}
+ /* ==========input-section========== */   
+
+ /* ==========cards-section========== */   
+ .success-text{
+    padding: 100px 120px;
+ }
+ .bold-s{
+    font-size: 51px;
+    font-weight: 999;
+ }
+ .sun-hero{
+    background-image: url("../images/Ellipse6103.png");
+    height: 499px;
+    background-size: cover;
+ }
+ .sun-hero-mobile{
+    display: none;
+ }
+ .card-parent{
+    margin: 70px 120px 20px 120px;
+ }
+ .custom-card{
+    height: 336px;
+    border:4px solid transparent;
+    background: linear-gradient(#fff,#fff) padding-box, linear-gradient(231.38deg, #7d42ff -5.3%, #08fcff 119.03%) border-box;
+    background-color: white;
+    text-align: center;
+    padding: 65px 13px;
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .card-big-text{
+    font-size: 24px;
+    font-weight: 999;
+ }
+.card-small-text{
+    font-size: 16px;
+    padding-top: 40px;
+}
+/* ==========cards-section========== */
+
+/* ==========carousel-section========== */
+.caro-img{
+    height: 643px;
+}
+.content{
+    background-color: #243F60;
+    height: 317px;
+    color: white;
+    padding: 40px;
+}
+.caro-big-text{
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+.caro-small-text{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+.choose{
+    text-align: center;
+    padding: 120px 85px 60px 85px;
+}
+.carousel-indicators{
+    bottom: 40px;
+}
+.carousel-indicators li{
+    background-color: #243F60;
+    border: 1px solid #FAAD01;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.empty{
+    height: 100px;
+    margin: 0;
+}
+/* ==========carousel-section========== */
+
+/* ==========footer========== */
+.footer{
+    background-color: #243F60;
+    height: 410px;
+}
+.vector{
+    height: 67px;
+    width: 67px;
+}
+.f-14{
+    font-size: 14px;
+}
+.f-12{
+    font-size: 12px;
+    font-weight: 600;
+}
+.font-18{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.font-18-{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 30px 0;
+    margin-top: 107px;
+}
+/* ==========footer========== */
+
+
+/* ==========MOBILE========== */
+/* ==========header========== */
+@media only screen and (max-width: 426px){
+    .hide{
+        display: none;
+    }
+    .white-half{
+        height: 350px;
+        width: 213;
+    }
+    .blue-half{
+        height: 350px;
+        width: 212px;
+        position: relative;
+    }
+    .logo-header{
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+    .header-text{
+        position: absolute; 
+        left: 64px;
+        top: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .circle-text{
+        color: black;
+        width: 299px;
+        height: 156px;
+        font-weight: 700;
+        font-weight: 700;
+        font-size: 20px;    
+    }
+    .big-text-circle{
+        font-weight: 999;
+        font-size: 24px;
+        line-height: 49px;
+        color: black;
+        position: absolute;
+        top: 55px;
+        left: 62px;
+    }
+    .circle1{
+        position: relative;
+    }
+    .white-arrow{
+        position: absolute;
+        left: 117px;
+        bottom: -25px;
+        color: #243F60;
+    }
+    /* ==========header========== */
+    
+    /* ==========events-section========== */
+    .events-container{
+        margin: 10px 0;
+        padding: 15px;
+    }
+    .bold{
+        font-size: 20px;
+        font-weight: 999;
+    }
+    .first-event{
+        background-image: url("../images/Rectangle25.png");
+        width: 365px;
+        height: 488px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .event-text{
+        position: absolute;
+        bottom: 20px;
+        left: 24px;
+    }
+    .second-event{
+        background-image: url("../images/Rectangle26.png");
+        width: 365px;
+        height: 488px;
+        position: relative;
+    }
+    .event-btn{
+        height: 60px;
+    }
+    .text-event{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .small-text{
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .big-event-btn{
+        background-color: #007BFF;
+        color: white;
+        border-radius: 10px;
+        padding: 16px 32px;
+        font-weight: 700;
+        font-size: 14px;
+        border: none;
+        width: 365px;
+        margin-top:  24px;
+        margin-bottom: 24px;
+    }
+    /* ==========events-section========== */
+    
+    /* ==========bubbles-section========== */
+    .bubbles-hero{
+        display: none;
+    }
+    .bubbles-hero-mobile{
+        display: block;
+        background-image: url(../images/OurCommunity.png);
+        background-size: cover;
+         width: 365px;
+        height: 467px;
+        position: relative;
+        margin-left: 15px;
+        margin-bottom: 50px;
+    }
+    .bubbles-text{
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        padding-right: 43px;
+    }
+    .our-community-text{
+        font-weight: 800;
+        font-size: 24px;
+    }
+    .our-community-small-text{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    /* ==========bubbles-section========== */
+    
+    /* ==========scholarships-section========== */
+    .scholarships {
+        background-color: #D8D8D8;
+        padding: 15px;
+    }
+    .scholarships-header {
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+    .bold-32-{
+        font-size: 20px;
+        font-weight: 999;
+    }
+    .bold-32-{
+        font-size: 20px;
+        font-weight: 999;
+    }
+    .f-400 {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .f-14-{
+        font-size: 14px;
+    }
+    .f-15{
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .f-600 {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .scholarships-hero1 {
+        background-image: url(../images/Rectangle20.png);
+        width: 365px;
+        height: 500px;
+        background-size: cover;
+        margin-bottom: 15px;
+    }
+    .scholarships-hero2{
+        background-image: url("../images/Rectangle31.png");
+        width: 365px;
+        height: 500px;
+        background-size: cover;
+        margin-bottom: 15px;
+    }
+    .scholarships-btn {
+        background-color: #007BFF;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+        width: 200px;
+        height: 60px;
+    }
+    .scholarships-text {
+        position: absolute;
+        bottom: 60px;
+        left: 30px;
+        padding-right: 50px;
+    }
+    /* ==========scholarships-section========== */
+
+    /* ==========input-section========== */
+    .mobile-input{
+        display: block;
+        height: 520px;
+        background-color: #243F60;
+        padding: 30px;
+    }
+    .input-text {
+        color: white;
+        position: unset;
+        width: 365px;
+    }
+    .name{
+        width: 365px;
+    }
+    .selector{
+        width: 365px;
+        font-size: 22px;
+    }
+    .circle-btn{
+        width: 150px;
+        align-self: flex-start
+    }
+    .bold-text-circle {
+        font-weight: 999;
+        font-size: 22px;
+    }
+    .font-20-circle {
+        font-size: 21px;
+        font-weight: 500;
+    }
+    .caret {
+        position: absolute;
+        color: black;
+        right: 6px;
+        top: 76px;
+        pointer-events: none;
+    }
+    /* ==========input-section========== */
+
+    /* ==========cards-section========== */
+    .sun-hero-mobile{
+        display: block;
+        background-image: url("../images/Ellipse-mobile.png");
+        height: 1174px;
+        background-size: cover;
+        margin-top: 100px;
+        margin-bottom: 100px;
+     }
+     .success-text {
+        padding: 50px 30px 5px 30px;
+    }
+    .bold-32{
+        font-size: 27px;
+        font-weight: 999;
+    }
+    .bold-s {
+        font-size: 27px;
+        font-weight: 999;
+    }
+    .custom-card {
+        height: 310px;
+        border: 4px solid transparent;
+        background: linear-gradient(#fff,#fff) padding-box, linear-gradient(231.38deg, #7d42ff -5.3%, #08fcff 119.03%) border-box;
+        background-color: white;
+        text-align: center;
+        padding: 60px 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .card-parent {
+        margin: -57px 30px 50px 30px;
+    }
+    .card-big-text {
+        font-size: 24px;
+        font-weight: 999;
+    }
+    .card-small-text {
+        font-weight: 500;
+        font-size: 18px;
+        padding-top: 50px;
+    }
+    /* ==========cards-section========== */
+
+    /* ==========carousel-section========== */
+    .choose {
+        text-align: center;
+        padding: 60px 30px 20px 30px;
+    }
+    .font-32 {
+        font-weight: 999;
+        font-size: 21px;
+    }
+    .caro-img {
+        height: 250px;
+    }
+    .caro-big-text {
+        font-size: 26px;
+        font-weight: 900;
+        padding-bottom: 30px;
+    }
+    .content {
+        background-color: #243F60;
+        height: 400px;
+        color: white;
+        padding: 30px;
+    }
+    .caro-small-text {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 22px;
+    }
+    /* ==========carousel-section========== */
+
+    /* ==========footer-section========== */
+    .footer {
+        background-color: #243F60;
+        height: 700px;
+    }
+    .font-18- {
+        font-size: 18px;
+        font-weight: 700;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .f-600 {
+        font-weight: 500;
+        font-size: 14px;
+    }
+    /* ==========footer-section========== */
+}
